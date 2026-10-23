@@ -1,0 +1,83 @@
+html{
+ font-size: 100x;
+ align-content: center;
+}
+
+
+body{
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+#boxe{
+display: flex;
+margin: 50px;
+gap: 30px;
+}
+.prix{
+    background-color:#273636;
+    border-radius:  10px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,1);
+}
+.carte-tete{
+    padding: 15px 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+#Basic .carte-tete{
+    background-color: slateblue;
+}
+#card-pro .carte-tete{
+    background-color: red;
+}
+#card-ultimate .carte-tete{
+    background-color: yellowgreen;
+}
+.prix-de-carte{
+    padding: 20px 0 ;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid skyblue;
+}
+.prix-de-carte .money-select , .prix-de-carte .penny{
+    font-size: 25px;
+    vertical-align: super;
+}
+.prix-de-carte .temp{
+    font-size: 15px;
+    font-weight: normal;
+    color: skyblue;
+    margin-top: 5px;
+}
+.particularitee{
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.particularitee li{
+    padding: 15px 0;
+    color: skyblue;
+    font-size: 15px;
+    border-bottom: 1px solid skyblue;
+}
+.button-card{
+    padding: 20px 0;
+}
+.button-card a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button-card a:hover{
+    text-decoration: underline;
+}

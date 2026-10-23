@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check-list</title>
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        li:nth-child(odd) {
+            background-color: beige;
+        }
+
+        li:nth-child(even) {
+            background-color: lightblue;
+        }
+
+        li:nth-child(4n) {
+            background-color: pink;
+        }
+
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: darkgreen;
+        }
+
+        input[type="checkbox"]:checked + label {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Check-list</h1>
+        <ul>
+            <li><input type="checkbox" id="tache-1"><label for="tache-1">Tâche 1</label></li>
+            <li><input type="checkbox" id="tache-2"><label for="tache-2">Tâche 2</label></li>
+            <li><input type="checkbox" id="tache-3"><label for="tache-3">Tâche 3</label></li>
+            <li><input type="checkbox" id="tache-4"><label for="tache-4">Tâche 4</label></li>
+            <li><input type="checkbox" id="tache-5"><label for="tache-5">Tâche 5</label></li>
+            <li><input type="checkbox" id="tache-6"><label for="tache-6">Tâche 6</label></li>
+            <li><input type="checkbox" id="tache-7"><label for="tache-7">Tâche 7</label></li>
+            <li><input type="checkbox" id="tache-8"><label for="tache-8">Tâche 8</label></li>
+        </ul>
+    </main>
+</body>
+</html>
